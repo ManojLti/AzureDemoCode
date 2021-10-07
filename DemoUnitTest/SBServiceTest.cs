@@ -13,7 +13,7 @@ namespace DemoUnitTest
             //Assert.Inconclusive();
             SBService sb = new SBService();
             TestContext.WriteLine("Validating A Valid Email");
-            bool result = sb.ValidateEmail("abc@xyz.pqr");
+            bool result = sb.ValidateEmail("abc@xyz.lmn");
             Assert.IsTrue(result);
         }
         [TestMethod]
